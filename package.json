@@ -112,7 +112,7 @@
     "node-fs": "0.1.7",
     "node-notifier": "5.2.1",
     "normalize.css": "8.0.0",
-    "openpgp": "2.6.2",
+    "openpgp": "4.3.0",
     "opentip": "2.4.3",
     "pikaday": "1.7.0",
     "raw-loader": "0.5.1",
