@@ -1130,9 +1130,9 @@ binary-extensions@^1.0.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.10.0.tgz#9aeb9a6c5e88638aad171e167f5900abe24835d0"
 
-binaryextensions@~1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/binaryextensions/-/binaryextensions-1.0.1.tgz#1e637488b35b58bda5f4774bf96a5212a8c90755"
+binaryextensions@^4.15.0:
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/binaryextensions/-/binaryextensions-4.15.0.tgz#c63a502e0078ff1b0e9b00a9f74d3c2b0f8bd32e"
 
 bluebird@^3.0.6:
   version "3.5.0"
@@ -1960,6 +1960,13 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
 
+editions@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/editions/-/editions-6.1.0.tgz#ba6c6cf9f4bb571d9e53ea34e771a602e5a66549"
+  dependencies:
+    errlop "^4.0.0"
+    version-range "^1.0.0"
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
@@ -2034,6 +2041,10 @@ enhanced-resolve@^4.0.0:
     memory-fs "^0.4.0"
     tapable "^1.0.0"
 
+errlop@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/errlop/-/errlop-4.1.0.tgz#8e7b8f4f1bf0a6feafce4d14f0c0cf4bf5ef036b"
+
 errno@^0.1.1, errno@^0.1.3:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/errno/-/errno-0.1.4.tgz#b896e23a9e5e8ba33871fc996abd3635fc9a1c7d"
@@ -2052,7 +2063,7 @@ error-ex@^1.2.0:
   dependencies:
     is-arrayish "^0.2.1"
 
-es6-object-assign@^1.1.0:
+es6-object-assign@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/es6-object-assign/-/es6-object-assign-1.1.0.tgz#c2c3582656247c39ea107cb1e6652b6f9f24523c"
 
@@ -2877,13 +2888,13 @@ gulp-rename@1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-1.2.2.tgz#3ad4428763f05e2764dec1c67d868db275687817"
 
-gulp-replace@0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/gulp-replace/-/gulp-replace-0.6.1.tgz#11bf8c8fce533e33e2f6a8f2f430b955ba0be066"
+gulp-replace@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/gulp-replace/-/gulp-replace-1.1.0.tgz#a8b011b99db07f593d75bd78203ec97759e116b1"
   dependencies:
-    istextorbinary "1.0.2"
-    readable-stream "^2.0.1"
-    replacestream "^4.0.0"
+    istextorbinary "^5.12.0"
+    replacestream "^4.0.3"
+    yargs-parser ">=5.0.0-security.0"
 
 gulp-rimraf@0.2.2:
   version "0.2.2"
@@ -3536,12 +3547,13 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-istextorbinary@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/istextorbinary/-/istextorbinary-1.0.2.tgz#ace19354d1a9a0173efeb1084ce0f87b0ad7decf"
+istextorbinary@^5.12.0:
+  version "5.12.0"
+  resolved "https://registry.yarnpkg.com/istextorbinary/-/istextorbinary-5.12.0.tgz#2f84777838668fdf524c305a2363d6057aaeec84"
   dependencies:
-    binaryextensions "~1.0.0"
-    textextensions "~1.0.0"
+    binaryextensions "^4.15.0"
+    editions "^6.1.0"
+    textextensions "^5.11.0"
 
 jquery-backstretch@2.1.16:
   version "2.1.16"
@@ -5196,7 +5208,7 @@ replace-ext@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
 
-replacestream@^4.0.0:
+replacestream@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/replacestream/-/replacestream-4.0.3.tgz#3ee5798092be364b1cdb1484308492cb3dff2f36"
   dependencies:
@@ -5801,9 +5813,9 @@ text-table@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
 
-textextensions@~1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/textextensions/-/textextensions-1.0.2.tgz#65486393ee1f2bb039a60cbba05b0b68bd9501d2"
+textextensions@^5.11.0:
+  version "5.12.0"
+  resolved "https://registry.yarnpkg.com/textextensions/-/textextensions-5.12.0.tgz#b908120b5c1bd4bb9eba41423d75b176011ab68a"
 
 through2@2.0.3, through2@^2.0.0, through2@^2.0.1, through2@^2.0.3:
   version "2.0.3"
@@ -6093,6 +6105,16 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
+version-compare@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/version-compare/-/version-compare-1.1.0.tgz#7b3e67e7e6cec5c72d9c9e586f8854e419ade17c"
+
+version-range@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/version-range/-/version-range-1.1.0.tgz#1c233064202ee742afc9d56e21da3b2e15260acf"
+  dependencies:
+    version-compare "^1.0.0"
+
 vinyl-fs@^0.3.0:
   version "0.3.14"
   resolved "https://registry.yarnpkg.com/vinyl-fs/-/vinyl-fs-0.3.14.tgz#9a6851ce1cac1c1cea5fe86c0931d620c2cfa9e6"
@@ -6292,6 +6314,10 @@ yallist@^2.1.2:
 yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.0.2.tgz#8452b4bb7e83c7c188d8041c1a837c773d6d8bb9"
+
+yargs-parser@>=5.0.0-security.0:
+  version "20.2.7"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-20.2.7.tgz#61df85c113edfb5a7a4e36eb8aa60ef423cbc90a"
 
 yargs@~3.10.0:
   version "3.10.0"
